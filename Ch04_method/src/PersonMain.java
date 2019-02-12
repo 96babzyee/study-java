@@ -1,31 +1,51 @@
+
 public class PersonMain {
-	public static void main(String[] args) {
-		int age = 20; // main()¸Ş¼ÒµåÀÇ Áö¿ªº¯¼ö (¸â¹öº¯¼ö¾Æ´Ô)
+
+	public static void main(String[] args) 
+	{
+		//ageëŠ” main()ë©”ì†Œë“œì˜ ì§€ì—­ë³€ìˆ˜, ë©¤ë²„ë³€ìˆ˜ ì•„ë‹˜!
+		
+		int age = 20;
 		int ageArr[] = {11, 22, 33};
 		
+
 		Person p1 = new Person();
-		//1. º¯¼ö age
+		
+		//1.ë³€ìˆ˜ age
 		p1.addAge(age);
 		System.out.println("PersonMain: "+age);
 		
-		//2. ¹è¿­ ageArr
+		//2.ë°°ì—´ ageArr
 		p1.addAgeArr(ageArr);
-		System.out.println("PersonMain: "+ ageArr[0]);
+		System.out.println("PersonMain: "+ageArr[0]);
 		
-		//3. °´Ã¼ c
-		Car c = new Car(); //2015³â»ê ÀÚµ¿Â÷ »ı¼º
-		c.year = 2015;
-		System.out.println("PersonMain 1: "+c.year); //2015
-		p1.addCar(c); //2025
-		System.out.println("PersonMain 2: "+c.year); //2025
+		//3.ê°ì²´ c
+		Car c = new Car();//2015ë…„ì‚° ìë™ì°¨ ìƒì„±
+		//c.year = 2015;
+		c.setYear(2015);
+//		System.out.println("PersonMain 1:"+c.year);//???1?
+		System.out.println("PersonMain 1:"+c.getYear());//???1?
 		
-		//4. °´Ã¼ ¹è¿­ c2[]
+		p1.addCar(c);		
+		//System.out.println("PersonMain 2:"+c.year);//????
+		System.out.println("PersonMain 2:"+c.getYear());//????
+		
+		//4.ê°ì²´ ë°°ì—´ c2[]
 		Car c2[] = new Car[3];
 		c2[0] = new Car();
 		c2[1] = new Car();
 		c2[2] = new Car();
 		
-		p1.addCarArr(c2); //2025
-		System.out.println("PersonMain Car Arr:"+c.year); //2025
+		p1.addCarArr(c2);
+//		System.out.println("PersonMain Car Arr:"+c.year);//????
+		System.out.println("PersonMain Car Arr:"+c.getYear());//????
+		
+		Car c3 = new Car();
+		int d = c3.add(3, 5);
+		//int d = c3.real_add(3, 5);
+		System.out.println("----"+d);
+	
+
 	}
+
 }

@@ -1,21 +1,21 @@
 public class foreachEx {
-	enum Week {¿ù, È­, ¼ö, ¸ñ, ±İ ,Åä ,ÀÏ}
+	enum Week {ì›”,í™”,ìˆ˜,ëª©,ê¸ˆ,í† ,ì¼}
 	
 	public static void main(String[] args) {
 		int[] num = {1,2,3,4,5};
-		String names[] = {"»ç°ú", "¹è", "¹Ù³ª³ª", "Ã¼¸®", "µş±â", "Æ÷µµ"};
+		String names[] = {"ì‚¬ê³¼", "ë°°", "ë°”ë‚˜ë‚˜", "ì²´ë¦¬", "ë”¸ê¸°", "í¬ë„"};
 		int sum = 0;
 		
 		for(int k : num)
 			sum+= k;
-		System.out.println("ÇÕÀº" + sum);
+		System.out.println("í•©ì€ " + sum);
 		
 		for(String s : names)
 			System.out.print(s +" ");
 		System.out.println();
 		
 		for(Week day : Week.values())
-			System.out.print(day + "¿äÀÏ ");
+			System.out.print(day + "ìš”ì¼");
 		System.out.println();
 		
 	}

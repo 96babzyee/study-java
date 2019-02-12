@@ -6,9 +6,9 @@ public class Book1Array {
 		
 		Scanner sc = new Scanner(System.in);
 		for (int i =0;i<b.length;i++) {
-			System.out.print("Á¦¸ñ >> ");
+			System.out.print("ï¿½ï¿½ï¿½ï¿½ >> ");
 			String title = sc.nextLine();
-			System.out.print("ÀúÀÚ >> ");
+			System.out.print("ï¿½ï¿½ï¿½ï¿½ >> ");
 			String author = sc.nextLine();
 			b[i] = new Book1(title, author);
 		}
