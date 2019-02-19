@@ -4,6 +4,13 @@
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
 	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
+	<item value="filter_imports;" key="filters_last_used"/>
+	<item value="C:\Workspace\포트폴리오\Java" key="org.eclipse.jdt.ui.last.external.project"/>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="updateSimilarElements"/>
+		<item value="1" key="updateSimilarElementsMatchStrategy"/>
+		<item value="false" key="updateTextualMatches"/>
+	</section>
 	<section name="SelfEncapsulateFieldWizard">
 		<item value="false" key="GenerateJavadoc"/>
 	</section>
@@ -46,6 +53,13 @@
 		<item value="600" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH"/>
 		<item value="false" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
 	</section>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item value="539" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="467" key="DIALOG_HEIGHT"/>
+		<item value="721" key="DIALOG_X_ORIGIN"/>
+		<item value="258" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="540" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
@@ -69,6 +83,9 @@
 		<item value="false" key="Comments"/>
 		<item value="1" key="VisibilityModifier"/>
 		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item value="true" key="showtypes"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
